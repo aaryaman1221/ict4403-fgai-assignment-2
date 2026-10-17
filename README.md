@@ -3,7 +3,7 @@
 Compare word-level next-token Simple RNN, Bidirectional RNN, LSTM, and GRU models on Tiny Shakespeare. Dataset: [Karpathy Tiny Shakespeare](https://github.com/karpathy/char-rnn/blob/master/data/tinyshakespeare/input.txt).
 
 ## Method
-Each model uses a 24-word context, 96-dimensional embeddings, 128 hidden units, batch size 64, Adam (0.001), and 8 epochs × 500 updates. The text is tokenized into words and punctuation, lowercased, and split sequentially into 80% train, 10% validation, 10% test. Vocabulary is built from training tokens only (5,957 entries including <unk>). Final metrics are held-out test cross-entropy, perplexity, next-token accuracy, and measured runtime.
+Each model uses a 24-word context, 96-dimensional embeddings, 128 hidden units, batch size 64, Adam (0.001), and 8 epochs × 500 updates. The text is tokenized into words and punctuation, lowercased, and split sequentially into 80% train, 10% validation, 10% test. Vocabulary is built from training tokens only (5,957 entries including &lt;unk&gt;). Final metrics are held-out test cross-entropy, perplexity, next-token accuracy, and measured runtime.
 
 ## Results
 | Model | Test loss | Perplexity | Accuracy | Time (s) |
