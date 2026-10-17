@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.matplotlib_cache/
+data/
+results/*.pt
+submission/
